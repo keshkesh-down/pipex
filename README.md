@@ -1,9 +1,6 @@
 # pipex
 This project aims to make you understand a bit deeper two concepts that you already know: the redirections and the pipes.
 
-![image](https://github.com/keshkesh-down/pipex/blob/main/pipex_bonus.gif)
-
-
 #### Used functions in this project:
 - [access](https://linux.die.net/man/2/access) checks user permissions for a file.
 - [unlink](https://man7.org/linux/man-pages/man2/unlink.2.html) removes the name from the file system.
@@ -27,7 +24,7 @@ foo@bar:> ./pipex here_doc //LIMITER\\ "cmd1" "cmd2" ... "cmdn" file
 
 #### Example:
 
-
+![image](https://github.com/keshkesh-down/pipex/blob/main/pipex.gif)
 
 #### Makefile
 `make` to compile without bonus functions.
@@ -36,6 +33,6 @@ foo@bar:> ./pipex here_doc //LIMITER\\ "cmd1" "cmd2" ... "cmdn" file
 
 `make clean` to delete `*.o` files.
 
-`make fclean` to delete `*.o` and `libftprintf.a` files.
+`make fclean` to delete `*.o` and `./pipex` files.
 
-`make re` to delete `*.o` and `libftprintf.a` files, and, to compile without bonus functions.
+`make re` to delete `*.o` and `./pipex` files, and, to compile without bonus functions.
