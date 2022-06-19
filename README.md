@@ -24,7 +24,7 @@ foo@bar:> ./pipex here_doc //LIMITER\\ "cmd1" "cmd2" ... "cmdn" file
 
 #### Example:
 
-![image](https://github.com/keshkesh-down/pipex/blob/main/pipex.gif)
+![pipex](https://user-images.githubusercontent.com/58878384/174498788-41a8b07a-f8aa-4099-a207-8565cfc2a363.gif)
 
 #### Makefile
 `make` to compile without bonus functions.
