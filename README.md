@@ -1,6 +1,9 @@
 # pipex
 This project aims to make you understand a bit deeper two concepts that you already know: the redirections and the pipes.
 
+![image](https://github.com/keshkesh-down/pipex/blob/main/pipex_bonus.gif)
+
+
 #### Used functions in this project:
 - [access](https://linux.die.net/man/2/access) checks user permissions for a file.
 - [unlink](https://man7.org/linux/man-pages/man2/unlink.2.html) removes the name from the file system.
