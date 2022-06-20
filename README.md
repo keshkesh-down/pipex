@@ -36,3 +36,5 @@ foo@bar:> ./pipex here_doc //LIMITER\\ "cmd1" "cmd2" ... "cmdn" file
 `make fclean` to delete `*.o` and `./pipex` files.
 
 `make re` to delete `*.o` and `./pipex` files, and, to compile without bonus functions.
+
+# Mark: 125/125
